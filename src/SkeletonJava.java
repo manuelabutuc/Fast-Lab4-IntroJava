@@ -80,6 +80,9 @@ public class SkeletonJava {
 
         int b = readIntConsole("Introduceti alt numar:");  // input using console
         printConsole("Ati introdus:" + b); // output using console
+
+        int c = a+b;
+        System.out.println("Suma numerelor introduse este "+c);
     }
     //end of main method
 }
